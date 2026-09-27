@@ -59,3 +59,7 @@ La guía PDF incluida explica por separado los WAV, las locuciones recibidas y l
 Este repositorio se dedica a la distribución; no contiene el proyecto de desarrollo.
 Los catálogos de actualización están firmados. No se suben registros de jugadores.
 Incidencias: mensaje por Discord a **elchimeneas**, indicando edición y versión.
+
+## Aclaración de soporte del 27 de septiembre de 2026
+
+El 27 de septiembre de 2026, el usuario confirma que los cierres al spectear procedían del servidor, no de Radio Inteligente ni de Dispatch. La incidencia queda cerrada sin cambios en la lógica de la radio. Las advertencias sobre esa investigación en los ZIP preparados previamente quedan sin efecto. Los archivos distribuidos se conservan con sus hashes originales.
