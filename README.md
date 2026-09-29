@@ -1,65 +1,69 @@
-# Radio Inteligente Dispatch — LSPD / SARP.es
+# Radio Inteligente Dispatch · SARP.es
 
-Descargas de **Radio Inteligente Dispatch LSPD** para Windows 10/11 de 64 bits.
-El ZIP completo contiene Dispatch portable, WAV, voces en español e inglés, el motor de voz y WebView2 local.
-No hace falta instalar Python ni iniciar sesión en GitHub para usarla.
+Descargas de **Dispatch LSPD y Dispatch LSSD** para Windows 10 y 11 de 64 bits. Son aplicaciones separadas, con códigos, emblemas, configuración y catálogo de actualización propios.
 
-## Descargar
-
-[Ver versiones y descargar Dispatch](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases)
-
-Las versiones de prueba se identifican como **beta / Pre-release**. No sustituyen una definitiva.
-
-## Instalación paso a paso
-
-1. Abre la versión que quieras descargar y despliega **Assets**.
-2. Descarga **Radio-Inteligente-Dispatch-LSPD-SARP.es-<versión>.zip**: es el paquete completo para jugadores.
-3. Si hay otra Radio Inteligente abierta, ciérrala desde **Salir** en su icono de la bandeja de iconos de Windows; puede estar dentro de la flecha de iconos ocultos.
-4. Extrae la carpeta completa donde prefieras; **recomiendo el Escritorio**. No ejecutes el programa dentro del ZIP ni mezcles los archivos con una carpeta antigua.
-5. Abre **rintel-lspd-dispatch.exe**. Conserva junto a él las carpetas `sonidos`, `voice`, `WebView2Runtime` y el resto del contenido extraído. Puedes crear un acceso directo al ejecutable.
-6. Sigue el tutorial, configura tu indicativo y elige idioma, voz y volumen. Los ajustes se guardan automáticamente. La guía PDF y `LEEME.txt` incluidos explican todas las opciones.
-
-## Qué es cada archivo de la descarga
-
-`<versión>` identifica la entrega; `<hash>` es la huella que permite verificar el contenido del componente.
-
-| Archivo en Assets | Qué contiene y para qué sirve | ¿Lo descargo manualmente? |
+| Edición | Publicación | Paquete completo que debes descargar |
 |---|---|---|
-| `Radio-Inteligente-Dispatch-LSPD-SARP.es-<versión>.zip` | Aplicación completa, dependencias, WAV, voces, guía y licencias. | **Sí. Es el único ZIP necesario para instalar.** |
-| `app-<hash>.zip` | Ejecutable, lógica de voz compilada, WAV, documentación y archivos de control de la versión. | No; lo gestiona el actualizador. No funciona solo. |
-| `voice-runtime-<hash>.zip` | Intérprete y bibliotecas que necesita el motor de voz, licencias y herramienta de diagnóstico incluida. | No; lo gestiona el actualizador. |
-| `voice-models-<hash>.zip` | Modelos y estilos de voz para las locuciones locales en español e inglés. | No; lo gestiona el actualizador. |
-| `webview-<hash>.zip` | WebView2 local, necesario para mostrar la interfaz de Dispatch. | No; lo gestiona el actualizador. |
-| `Source code (zip)` / `Source code (tar.gz)` | Archivos que GitHub genera automáticamente a partir de este repositorio de descargas: README y catálogos según la etiqueta. No contienen el proyecto privado ni una aplicación instalable. | No. |
+| **LSPD** | [1.2.0 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.0) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.0.zip` |
+| **LSSD** | [1.0.0-beta1 · prueba para jugadores](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.0.0-beta1) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.0.0-beta1.zip` |
 
-No mezcles componentes ni los extraigas por separado sobre tu instalación: Dispatch selecciona los compatibles y comprueba su integridad.
+Las versiones de esta tabla pueden no ser las últimas: consulta [Releases](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases) y **Ajustes > Actualizaciones**. El distintivo Latest puede corresponder a otra agencia; comprueba siempre LSPD o LSSD en el nombre.
 
-## Qué ejecutable debo abrir
+## Original o Dispatch
 
-**Abre únicamente `rintel-lspd-dispatch.exe` para usar la radio.** Los demás binarios son dependencias incluidas:
+La [Radio Inteligente original](https://github.com/elchimeneas/radio-inteligente-descargas/releases) utiliza grabaciones WAV y consume menos recursos. Dispatch añade **locuciones locales en español e inglés**, con indicativos completos, contexto y ubicaciones reconocidas en el chat. Incluye las funciones de radio, mensajes, 911, panel y sesiones.
 
-| Binario o ubicación | Función |
+**Dispatch consume más CPU y memoria y no está pensada para todos los equipos.** Prueba una patrulla, selecciona calidad Ahorro si es necesario y vuelve a la original si afecta al juego. No hay un requisito de rendimiento validado para todos los ordenadores. LSSD se publica como beta para recoger incidencias, no como una versión ya probada en todos los equipos.
+
+## Instalación
+
+1. Abre la publicación de tu agencia y despliega **Assets**.
+2. Descarga el **ZIP completo** de la tabla. No descargues `app-…`, `voice-runtime-…`, `voice-models-…` o `webview-…` para instalar manualmente.
+3. Cierra cualquier otra radio mediante **Salir**, desde la bandeja de iconos de Windows; el icono puede estar dentro de la flecha de iconos ocultos.
+4. Extrae toda la carpeta donde quieras; **recomiendo el Escritorio**. No ejecutes desde dentro del ZIP ni mezcles carpetas de ediciones o versiones.
+5. Abre **rintel-lspd-dispatch.exe** para LSPD o **rintel-lssd-dispatch.exe** para LSSD. Conserva todas las carpetas incluidas junto al ejecutable.
+6. Sigue el tutorial y configura tu indicativo, idioma, voz y volumen. Los cambios se guardan automáticamente. El ZIP incluye `LEEME.txt`, guía PDF, changelog y licencias.
+
+No necesitas instalar Python ni WebView2 por separado, ni iniciar sesión en GitHub para descargar. La voz se genera en el equipo; Internet se utiliza para buscar o descargar actualizaciones. Solo puede estar activa una Radio Inteligente a la vez.
+
+## WAV, locuciones y respuestas
+
+Son **tres ajustes independientes** por aviso: grabación WAV, locución recibida y respuesta a tus propios mensajes. Desactivar el WAV no desactiva la voz. Con WAV y locución recibida activos, la voz ocupa el aviso y el WAV queda como respaldo. Las respuestas propias empiezan desactivadas.
+
+LSSD utiliza los códigos de su manual, SCC, ayudantes, apoyo de rutina y asistencia urgente; acepta `10-15` o `'15`, y su canal RJ es **RJ SHERIFF**. LSPD mantiene sus propias reglas y **RJ POLICE**. Las preferencias de una agencia no convierten una aplicación en la otra.
+
+## Actualización
+
+- Desde la aplicación: **Ajustes > Actualizaciones**, con GTA cerrado. La búsqueda automática puede avisarte, pero tú decides descargar e instalar. Los catálogos están firmados y cada edición recibe únicamente sus actualizaciones.
+- Mediante ZIP: primero **Salir** desde la bandeja. Extrae la carpeta nueva completa. Puedes borrar la anterior tras conservar los archivos personales que hayas añadido dentro. Los ajustes e historiales de esa edición permanecen en su carpeta de datos. Si cambia la ruta, corrige accesos directos y vuelve a aplicar Iniciar con Windows.
+- Pasar de la original a Dispatch es una **instalación separada**, no una actualización automática. LSSD no importa automáticamente tus ajustes de otras ediciones.
+
+## Qué es cada archivo de Assets
+
+| Archivo | Para qué sirve |
 |---|---|
-| `rintel-lspd-dispatch.exe` | Aplicación principal: Central, avisos, voz, historial y ajustes. |
-| `voice/runtime/python.exe` y `pythonw.exe` | Intérprete utilizado por el servicio local de voz. Las copias dentro de `Lib/venv` pertenecen también a Python. No debes abrirlos manualmente. |
-| `WebView2Runtime/.../msedgewebview2.exe` | Runtime que muestra la interfaz. Los demás ejecutables de esa carpeta son auxiliares del runtime de Microsoft; no son pasos de instalación de Dispatch. |
-| `tools/PresentMon/PresentMon-2.5.1-x64.exe` | Herramienta incluida para el diagnóstico de rendimiento opcional. Utiliza los controles de diagnóstico de la aplicación. |
-| Archivos `.dll` y `voice/compiled/*.pyd` | Bibliotecas y módulos que carga la aplicación. No se ejecutan ni se instalan por separado. |
+| `Radio-Inteligente-Dispatch-<LSPD o LSSD>-SARP.es-<versión>.zip` | **Paquete completo para jugadores. Es el único ZIP necesario para instalar.** |
+| `app-<hash>.zip` | Ejecutable, lógica de voz compilada, WAV y documentación. Lo gestiona el actualizador; no funciona por separado. |
+| `voice-runtime-<hash>.zip` | Intérprete, bibliotecas, licencias y diagnóstico del motor de voz. Lo gestiona el actualizador. |
+| `voice-models-<hash>.zip` | Modelos y estilos de voz locales. Lo gestiona el actualizador. |
+| `webview-<hash>.zip` | Interfaz WebView2 local. Lo gestiona el actualizador. |
+| `Source code (zip/tar.gz)` | Archivos automáticos de GitHub con este repositorio de descargas. No contienen el proyecto privado ni la aplicación instalable. |
 
-## Actualizar una instalación existente
+`<hash>` es la huella que verifica el contenido. No mezcles componentes manualmente.
 
-- **Desde Dispatch:** entra en **Ajustes > Actualizaciones**, cierra GTA y sigue las opciones para descargar y actualizar/reiniciar. Solo se descargan los componentes que cambian. La búsqueda automática avisa de nuevas versiones, pero tú decides cuándo instalarlas.
-- **Mediante ZIP:** utiliza **Salir** en la bandeja de iconos de Windows y extrae la carpeta nueva completa. Puedes borrar la anterior después de conservar cualquier archivo personal que hayas añadido dentro. Los ajustes e historiales se guardan por separado y se conservan. Si cambias de ubicación, actualiza los accesos directos y vuelve a aplicar **Iniciar con Windows**.
-- Si tu versión aún no tiene actualizador, necesitas descargar el ZIP completo una primera vez.
+## Qué ejecutable abrir
 
-## Guía y ayuda
+| Archivo dentro de la carpeta | Función |
+|---|---|
+| `rintel-lspd-dispatch.exe` / `rintel-lssd-dispatch.exe` | **Aplicación principal de la agencia elegida.** |
+| `voice/runtime/python.exe`, `pythonw.exe` y copias de `Lib/venv` | Dependencias del servicio local de voz. No las abras manualmente. |
+| `WebView2Runtime/.../msedgewebview2.exe` y auxiliares | Interfaz de Microsoft incluida. No son instaladores que deba abrir el jugador. |
+| `tools/PresentMon/PresentMon-2.5.1-x64.exe` | Diagnóstico opcional, gestionado desde la aplicación. |
+| `.dll`, `voice/compiled/*.pyd` | Bibliotecas y módulos; no se ejecutan ni instalan por separado. |
+| `ARCHIVOS.sha256` | Inventario para comprobar la integridad; no se ejecuta. |
 
-La guía PDF incluida explica por separado los WAV, las locuciones recibidas y las respuestas propias: activar uno no activa los demás. También cubre configuración, rendimiento y solución de problemas.
+## Incidencias
 
-Este repositorio se dedica a la distribución; no contiene el proyecto de desarrollo.
-Los catálogos de actualización están firmados. No se suben registros de jugadores.
-Incidencias: mensaje por Discord a **elchimeneas**, indicando edición y versión.
+Envía un mensaje por **Discord a elchimeneas** con edición, versión, pasos y resultado. Para un fallo de detección o audio, incluye el mensaje completo y tus ajustes de WAV/voz. Puedes utilizar `REPORTAR_INCIDENCIA.txt`; no hace falta enviar toda la carpeta ni el historial completo.
 
-## Aclaración de soporte del 27 de septiembre de 2026
-
-El 27 de septiembre de 2026, el usuario confirma que los cierres al spectear procedían del servidor, no de Radio Inteligente ni de Dispatch. La incidencia queda cerrada sin cambios en la lógica de la radio. Las advertencias sobre esa investigación en los ZIP preparados previamente quedan sin efecto. Los archivos distribuidos se conservan con sus hashes originales.
+Este repositorio contiene descargas, documentación y catálogos. El proyecto de desarrollo se conserva privado. No se suben registros de jugadores automáticamente.
