@@ -4,8 +4,10 @@ Descargas de **Dispatch LSPD y Dispatch LSSD** para Windows 10 y 11 de 64 bits. 
 
 | Edición | Publicación | Paquete completo que debes descargar |
 |---|---|---|
-| **LSPD** | [1.2.1 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.1) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.1.zip` |
-| **LSSD** | [1.2.1 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.1) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.1.zip` |
+| **LSPD** | [1.2.2 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.2) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.2.zip` |
+| **LSSD** | [1.2.2 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.2) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.2.zip` |
+
+La 1.2.2 incorpora un icono común para ambas ediciones. Incluye las guías 1.2.1, válidas para esta revisión visual.
 
 Las versiones de esta tabla pueden no ser las últimas: consulta [Releases](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases) y **Ajustes > Actualizaciones**. El distintivo Latest puede corresponder a otra agencia; comprueba siempre LSPD o LSSD en el nombre.
 
