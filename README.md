@@ -4,8 +4,8 @@ Descargas de **Dispatch LSPD y Dispatch LSSD** para Windows 10 y 11 de 64 bits. 
 
 | Edición | Publicación | Paquete completo que debes descargar |
 |---|---|---|
-| **LSPD** | [1.2.0 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.0) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.0.zip` |
-| **LSSD** | [1.0.0-beta1 · prueba para jugadores](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.0.0-beta1) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.0.0-beta1.zip` |
+| **LSPD** | [1.2.1 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.1) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.1.zip` |
+| **LSSD** | [1.2.1 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.1) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.1.zip` |
 
 Las versiones de esta tabla pueden no ser las últimas: consulta [Releases](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases) y **Ajustes > Actualizaciones**. El distintivo Latest puede corresponder a otra agencia; comprueba siempre LSPD o LSSD en el nombre.
 
@@ -13,7 +13,7 @@ Las versiones de esta tabla pueden no ser las últimas: consulta [Releases](http
 
 La [Radio Inteligente original](https://github.com/elchimeneas/radio-inteligente-descargas/releases) utiliza grabaciones WAV y consume menos recursos. Dispatch añade **locuciones locales en español e inglés**, con indicativos completos, contexto y ubicaciones reconocidas en el chat. Incluye las funciones de radio, mensajes, 911, panel y sesiones.
 
-**Dispatch consume más CPU y memoria y no está pensada para todos los equipos.** Prueba una patrulla, selecciona calidad Ahorro si es necesario y vuelve a la original si afecta al juego. No hay un requisito de rendimiento validado para todos los ordenadores. LSSD se publica como beta para recoger incidencias, no como una versión ya probada en todos los equipos.
+**Dispatch consume más CPU y memoria y no está pensada para todos los equipos.** Prueba una patrulla, selecciona calidad Ahorro si es necesario y vuelve a la original si afecta al juego. No hay un requisito de rendimiento validado para todos los ordenadores.
 
 ## Instalación
 
@@ -32,13 +32,19 @@ Son **tres ajustes independientes** por aviso: grabación WAV, locución recibid
 
 LSSD utiliza los códigos de su manual, SCC, ayudantes, apoyo de rutina y asistencia urgente; acepta `10-15` o `'15`, y su canal RJ es **RJ SHERIFF**. LSPD mantiene sus propias reglas y **RJ POLICE**. Las preferencias de una agencia no convierten una aplicación en la otra.
 
+## Avisos repetidos
+
+Como máximo se admiten dos avisos del mismo tipo en diez segundos, contando WAV y voz juntos, incluidas radio y menciones. Los sobrantes no se reproducen después; las comunicaciones siguen registrándose. Cada tipo tiene su contador y se mantiene el máximo conjunto de dos sonidos al volver de la pausa.
+
 ## Actualización
 
 - Desde la aplicación: **Ajustes > Actualizaciones**, con GTA cerrado. La búsqueda automática puede avisarte, pero tú decides descargar e instalar. Los catálogos están firmados y cada edición recibe únicamente sus actualizaciones.
 - Mediante ZIP: primero **Salir** desde la bandeja. Extrae la carpeta nueva completa. Puedes borrar la anterior tras conservar los archivos personales que hayas añadido dentro. Los ajustes e historiales de esa edición permanecen en su carpeta de datos. Si cambia la ruta, corrige accesos directos y vuelve a aplicar Iniciar con Windows.
 - Pasar de la original a Dispatch es una **instalación separada**, no una actualización automática. LSSD no importa automáticamente tus ajustes de otras ediciones.
 
-## Qué es cada archivo de Assets
+## Qué es cada archivo de descarga
+
+Desde 1.2.1, cada publicación para jugadores contiene solo su ZIP completo como archivo adjunto. Los componentes del actualizador se guardan en publicaciones «Componentes del actualizador» separadas; no necesitas abrirlas. Los componentes antiguos se conservan donde estaban para que sigan funcionando los catálogos anteriores. GitHub añade automáticamente «Source code»; esos archivos no son la aplicación.
 
 | Archivo | Para qué sirve |
 |---|---|
