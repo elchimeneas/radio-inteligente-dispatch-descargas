@@ -4,10 +4,10 @@ Descargas de **Dispatch LSPD y Dispatch LSSD** para Windows 10 y 11 de 64 bits. 
 
 | Edición | Publicación | Paquete completo que debes descargar |
 |---|---|---|
-| **LSPD** | [1.2.4 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.4) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.4.zip` |
-| **LSSD** | [1.2.4 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.4) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.4.zip` |
+| **LSPD** | [1.2.5 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.5) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.5.zip` |
+| **LSSD** | [1.2.5 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.5) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.5.zip` |
 
-La 1.2.4 amplía a 10 segundos la preparación de voz y a 15 segundos el inicio del audio, sin cortar lo que ya está sonando. Incluye guías actualizadas, efecto de radio optimizado y el modo opcional Ligero. Dinámico conserva el contexto y los ajustes anteriores; Ligero prepara frases con GTA cerrado y las reutiliza durante el juego, sin calles ni indicativos. Espera a que termine su preparación antes de jugar. Los controles de WAV y locuciones siguen siendo independientes.
+La 1.2.5 permite apagar un aviso completo desde su casilla: WAV, locución recibida y respuesta propia. Volver a marcarlo recupera la selección anterior, incluso tras reiniciar. En **Configurar** puedes seguir ajustando cada control por separado. La lista muestra qué está activado y las guías explican el nuevo comportamiento. Se conservan tus preferencias y los modos Dinámico y Ligero.
 
 Las versiones de esta tabla pueden no ser las últimas: consulta [Releases](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases) y **Ajustes > Actualizaciones**. El distintivo Latest puede corresponder a otra agencia; comprueba siempre LSPD o LSSD en el nombre.
 
@@ -30,7 +30,7 @@ No necesitas instalar Python ni WebView2 por separado, ni iniciar sesión en Git
 
 ## WAV, locuciones y respuestas
 
-Son **tres ajustes independientes** por aviso: grabación WAV, locución recibida y respuesta a tus propios mensajes. Desactivar el WAV no desactiva la voz. Con WAV y locución recibida activos, la voz ocupa el aviso y el WAV queda como respaldo. Las respuestas propias empiezan desactivadas.
+En **Avisos > Configurar** hay tres ajustes independientes por aviso: grabación WAV, locución recibida y respuesta a tus propios mensajes. Desactivar el WAV no desactiva la voz. Con WAV y locución recibida activos, la voz ocupa el aviso y el WAV queda como respaldo. Las respuestas propias empiezan desactivadas.
 
 LSSD utiliza los códigos de su manual, SCC, ayudantes, apoyo de rutina y asistencia urgente; acepta `10-15` o `'15`, y su canal RJ es **RJ SHERIFF**. LSPD mantiene sus propias reglas y **RJ POLICE**. Las preferencias de una agencia no convierten una aplicación en la otra.
 
