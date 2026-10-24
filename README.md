@@ -4,10 +4,10 @@ Descargas de **Dispatch LSPD y Dispatch LSSD** para Windows 10 y 11 de 64 bits. 
 
 | Edición | Publicación | Paquete completo que debes descargar |
 |---|---|---|
-| **LSPD** | [1.2.5 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.5) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.5.zip` |
-| **LSSD** | [1.2.5 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.5) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.5.zip` |
+| **LSPD** | [1.2.6 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/v1.2.6) | `Radio-Inteligente-Dispatch-LSPD-SARP.es-1.2.6.zip` |
+| **LSSD** | [1.2.6 definitiva](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases/tag/lssd-v1.2.6) | `Radio-Inteligente-Dispatch-LSSD-SARP.es-1.2.6.zip` |
 
-La 1.2.5 permite apagar un aviso completo desde su casilla: WAV, locución recibida y respuesta propia. Volver a marcarlo recupera la selección anterior, incluso tras reiniciar. En **Configurar** puedes seguir ajustando cada control por separado. La lista muestra qué está activado y las guías explican el nuevo comportamiento. Se conservan tus preferencias y los modos Dinámico y Ligero.
+La 1.2.6 mejora el inicio automático con Windows: añade una espera breve y reintentos limitados ante un fallo concreto de WebView2. La apertura manual sigue siendo inmediata. Conserva todos los ajustes y el control completo de cada aviso. Falta comprobar el arranque tras reiniciar en los equipos afectados; si el error persiste, envía el código a elchimeneas por Discord.
 
 Las versiones de esta tabla pueden no ser las últimas: consulta [Releases](https://github.com/elchimeneas/radio-inteligente-dispatch-descargas/releases) y **Ajustes > Actualizaciones**. El distintivo Latest puede corresponder a otra agencia; comprueba siempre LSPD o LSSD en el nombre.
 
